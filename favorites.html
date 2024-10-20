@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- header part  start-->
+    <header class="header-cl">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-logo"><a href="/index.html">Bookcase</a></div>
+          <ul class="navbar-links">
+            <li><a href="/index.html"> Books </a></li>
+            <li class="nav-link-fab">
+              <a href="/favorites.html">
+                <span class="favorite-count"></span>
+                <span class="material-icons">favorite</span>
+              </a>
+            </li>
+            <li>
+              <a href="/index.html">
+                <span class="material-icons">person</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <section class="favorite-wr">
+      <div class="container">
+        <h2 class="fav-title">Favorite lists</h2>
+        <div class="fav-clear-all-wr">
+          <button class="fav-clear-all">clear all</button>
+        </div>
+
+        <div class="fav-book-row">
+          <!-- <div class="book">
+            <img
+              src="https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg"
+              alt="product image" />
+            <div class="book-content">
+              <h3 class="book-title">
+                Frankenstein; Or, The Modern Prometheus
+              </h3>
+              <div class="book-authors">
+                <h4 class="book-author-name">
+                  <span>Writer:</span> Shelley, Mary Wollstonecraft
+                </h4>
+              </div>
+            </div>
+            <button class="material-icons">close</button>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <script type="module" src="./assets/js/index.js"></script>
+    <script type="module" src="./assets/js/favortie.js"></script>
+  </body>
+</html>
